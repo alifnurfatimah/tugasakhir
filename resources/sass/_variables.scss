@@ -5,3 +5,23 @@ $body-bg: #f8fafc;
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$primary: #12232e; 
+$secondary: #007cc7; 
+$success: #198754; 
+$info: #0dcaf0; 
+$warning: #ffc107; 
+$danger: #dc3545; 
+$light: #f8f9fa; 
+$dark: #020b0e; 
+ 
+$theme-colors: (   
+    "primary":    $primary,   
+    "secondary":  $secondary,   
+    "success":    $success,   
+    "info":       $info,   
+    "warning":    $warning,   
+    "danger":     $danger,   
+    "light":      $light,   
+    "dark":       $dark 
+    ); 

@@ -11,3 +11,6 @@
  <span x-cloak x-show="menuOpen"><i  class="float-end fas fa-angledown"></i></span>     
 </a>     
 <ul class="collapse show" x-show.transition.200ms="menuOpen" x-cloak>     
+    {{$slot}}
+</ul>
+</li>
